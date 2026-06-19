@@ -340,23 +340,14 @@ export default function Home() {
 
           <div ref={carouselRef} className="flex overflow-x-auto snap-x gap-6 pb-8 scroll-smooth [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
             {testimonials.map((testimonial, i) => (
-              <div key={i} className="group relative w-[85vw] md:w-[45vw] lg:w-[calc(25%-18px)] shrink-0 aspect-[3/4] rounded-[32px] overflow-hidden cursor-pointer shadow-sm bg-gray-200 snap-start">
-                <div className="absolute inset-0 transition-opacity duration-500 group-hover:opacity-0">
-                  <Image src={testimonial.img} alt={testimonial.name} fill className="object-cover" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" />
-                  <div className="absolute bottom-0 left-0 w-full p-8 text-white">
-                    <h4 className="font-medium text-lg leading-tight">{testimonial.name}</h4>
-                    <p className="text-xs text-gray-300 mt-2">{testimonial.role}</p>
-                  </div>
-                </div>
-                <div className="absolute inset-0 bg-[#0d6efd] p-6 md:p-8 text-white opacity-0 transition-all duration-500 group-hover:opacity-100 flex flex-col">
-                  <div className="translate-y-4 group-hover:translate-y-0 transition-transform duration-500 flex flex-col h-full">
-                    <h4 className="font-medium text-lg leading-tight">{testimonial.name}</h4>
-                    <p className="text-blue-200 text-xs mt-2 mb-4">{testimonial.role}</p>
-                    <p className="text-[11px] leading-relaxed flex-1 opacity-90">{testimonial.text}</p>
-                    <div className="flex gap-4 mt-auto">
-                      <span className="font-bold text-xs">in</span> <span className="font-bold text-xs">tw</span>
-                    </div>
+              <div key={i} className="relative w-[85vw] md:w-[45vw] lg:w-[calc(25%-18px)] shrink-0 aspect-[3/4] rounded-[32px] overflow-hidden shadow-sm bg-[#0d6efd] snap-start p-6 md:p-8 text-white flex flex-col">
+                <div className="flex flex-col h-full">
+                  <h4 className="font-medium text-xl leading-tight">{testimonial.name}</h4>
+                  <p className="text-blue-200 text-sm mt-2 mb-6">{testimonial.role}</p>
+                  <p className="text-sm md:text-base leading-relaxed flex-1 opacity-90">{testimonial.text}</p>
+                  <div className="flex gap-4 mt-auto">
+                    <span className="font-bold text-sm hover:text-white/80 cursor-pointer transition-colors">in</span> 
+                    <span className="font-bold text-sm hover:text-white/80 cursor-pointer transition-colors">tw</span>
                   </div>
                 </div>
               </div>
