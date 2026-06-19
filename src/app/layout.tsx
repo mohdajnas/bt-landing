@@ -22,8 +22,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "boehmtech® — Creative Digital Agency",
-  description: "We create experiences that ignite passion by reimagining what's possible",
+  title: "Boehm Tech | AI, Autonomous Systems & Enterprise Software",
+  description: "Boehmtech is a deep technology company building intelligent, autonomous AI systems, enterprise software, and scalable digital solutions to transform modern operations.",
 };
 
 export default function RootLayout({

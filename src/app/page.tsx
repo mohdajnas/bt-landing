@@ -95,20 +95,20 @@ export default function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16 relative">
           {/* Left Column */}
           <div className="flex flex-col justify-between h-full min-h-[300px]">
-            <h2 className="text-4xl md:text-5xl font-light text-gray-900 leading-tight">
-              For crafting bold <br/> digital realities
+            <h2 className="text-4xl md:text-[44px] font-light text-gray-900 leading-tight pr-8">
+              Building the Intelligence <br className="hidden md:block" /> Infrastructure of Tomorrow
             </h2>
-            <div className="mt-auto pt-32 text-xs text-gray-400">innovation philosophy</div>
+            <div className="mt-auto pt-32 text-[10px] text-gray-400 uppercase tracking-widest">Innovation Philosophy</div>
           </div>
 
           {/* Right Column */}
-          <div className="flex flex-col">
-            <div className="text-xs text-gray-900 font-medium mb-4">Innovating for a Sustainable Future</div>
-            <p className="text-xl font-light text-gray-400 leading-relaxed mb-8 max-w-md">
-              We create experiences that <br/> ignite passion by reimagining <br/> what&apos;s possible
+          <div className="flex flex-col justify-end">
+            <div className="text-[10px] text-gray-900 font-semibold mb-4 uppercase tracking-widest">Innovation Philosophy</div>
+            <p className="text-xl md:text-2xl font-light text-gray-600 leading-relaxed mb-8 max-w-lg">
+              We design and deploy intelligent, autonomous systems that solve real-world problems and help organizations operate, decide, and evolve in an AI-native world.
             </p>
             <div className="mb-16">
-               <button className="px-8 py-2 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-colors text-sm">
+               <button className="px-8 py-3 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-colors text-sm font-medium">
                  More
                </button>
             </div>
