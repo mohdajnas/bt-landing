@@ -116,10 +116,10 @@ export default function Home() {
             {/* Images side by side under the right column */}
             <div className="grid grid-cols-2 gap-6 w-[120%] -ml-[10%] md:w-full md:ml-0">
               <div className="relative h-48 md:h-56 rounded-[24px] md:rounded-[30px] overflow-hidden">
-                <Image src="/assets/portfolio-1.png" alt="Portfolio 1" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                <Image src="/11.png" alt="Innovation Image 1" fill className="object-cover hover:scale-105 transition-transform duration-700" />
               </div>
               <div className="relative h-48 md:h-56 rounded-[24px] md:rounded-[30px] overflow-hidden">
-                <Image src="/assets/portfolio-2.png" alt="Portfolio 2" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                <Image src="/22.jpg" alt="Innovation Image 2" fill className="object-cover hover:scale-105 transition-transform duration-700" />
               </div>
             </div>
           </div>
