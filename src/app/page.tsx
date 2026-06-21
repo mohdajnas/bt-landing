@@ -365,7 +365,7 @@ export default function Home() {
             Built for brands <br/> that mean business.
           </h2>
           <p className="text-gray-600 mb-8 max-w-xl mx-auto">
-            From startups to scaling products, boehmtech has helped founders build designs worth talking about. You could be next.
+            From innovative startups to global enterprises, Boehmtech builds intelligent systems and scalable infrastructures that fundamentally transform how organizations operate. You could be next.
           </p>
           <a href="mailto:operations@boehmtech.co?subject=Project%20Quote%20Request%20-%20Boehmtech&body=Hello%20Boehmtech%20Team%2C%0A%0AI%20would%20like%20to%20discuss%20a%20project%20and%20request%20a%20quote.%0A%0AProject%20Details%3A%0A%0A" className="flex w-fit px-6 py-3 bg-[#3b82f6] hover:bg-[#2563eb] text-white rounded-xl shadow-[0_4px_14px_0_rgba(59,130,246,0.39)] transition-all items-center gap-2 mx-auto font-medium">
             Get Quote
