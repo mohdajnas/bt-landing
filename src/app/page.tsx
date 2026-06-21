@@ -52,15 +52,16 @@ export default function Home() {
           
           <div className="hidden md:flex items-center gap-8 text-sm text-gray-300">
             <Link href="#products" className="hover:text-white transition-colors">Products</Link>
+            <Link href="#services" className="hover:text-white transition-colors">Services</Link>
             <Link href="#growth" className="hover:text-white transition-colors">Growth</Link>
             <Link href="#design" className="hover:text-white transition-colors">Design</Link>
             <Link href="#about" className="hover:text-white transition-colors">About</Link>
           </div>
 
           <div className="flex items-center gap-4">
-            <Link href="#book" className="text-sm px-4 py-2 rounded-full border border-gray-500 hover:border-white transition-all text-white">
+            <a href="mailto:operations@boehmtech.co" className="text-sm px-4 py-2 rounded-full border border-gray-500 hover:border-white transition-all text-white">
               Book a meeting
-            </Link>
+            </a>
           </div>
         </nav>
 
@@ -91,7 +92,7 @@ export default function Home() {
       {/* Wrapper for the white sections */}
       <div className="bg-white rounded-t-[40px] md:rounded-t-[60px] rounded-b-[40px] md:rounded-b-[60px] overflow-hidden pb-12 -mt-12 md:-mt-20 relative z-20 w-full">
       {/* 2. Portfolio / Bold Digital Realities Section */}
-      <section className="w-full py-24 px-8 md:px-16 mx-auto">
+      <section id="design" className="w-full py-24 px-8 md:px-16 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16 relative">
           {/* Left Column */}
           <div className="flex flex-col justify-between h-full min-h-[300px]">
@@ -127,7 +128,7 @@ export default function Home() {
       </section>
 
       {/* 3. Manifesto Text Section */}
-      <section className="w-full py-24 px-8 md:px-16 mx-auto border-t border-gray-100 mt-12">
+      <section id="about" className="w-full py-24 px-8 md:px-16 mx-auto border-t border-gray-100 mt-12">
         <div className="flex flex-col md:flex-row justify-between items-start gap-12">
           <h3 className="text-2xl md:text-[32px] font-light leading-snug text-gray-900 max-w-4xl">
             We are an AI and deep technology company <br className="hidden md:block"/>
@@ -141,7 +142,7 @@ export default function Home() {
         </div>
       </section>
       {/* 4. Strategy Section with Space Background */}
-      <section className="relative w-[95%] mx-auto rounded-[40px] overflow-hidden my-12 bg-[#020817] text-white">
+      <section id="growth" className="relative w-[95%] mx-auto rounded-[40px] overflow-hidden my-12 bg-[#020817] text-white">
         <div className="absolute inset-0 z-0">
           <Image src="/assets/earth-space.png" alt="Earth from space" fill className="object-cover opacity-60" />
         </div>
@@ -366,12 +367,12 @@ export default function Home() {
           <p className="text-gray-600 mb-8 max-w-xl mx-auto">
             From startups to scaling products, boehmtech has helped founders build designs worth talking about. You could be next.
           </p>
-          <button className="px-6 py-3 bg-[#3b82f6] hover:bg-[#2563eb] text-white rounded-xl shadow-[0_4px_14px_0_rgba(59,130,246,0.39)] transition-all flex items-center gap-2 mx-auto font-medium">
+          <a href="mailto:operations@boehmtech.co?subject=Project%20Quote%20Request%20-%20Boehmtech&body=Hello%20Boehmtech%20Team%2C%0A%0AI%20would%20like%20to%20discuss%20a%20project%20and%20request%20a%20quote.%0A%0AProject%20Details%3A%0A%0A" className="flex w-fit px-6 py-3 bg-[#3b82f6] hover:bg-[#2563eb] text-white rounded-xl shadow-[0_4px_14px_0_rgba(59,130,246,0.39)] transition-all items-center gap-2 mx-auto font-medium">
             Get Quote
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
-          </button>
+          </a>
         </div>
 
         {/* Footer Content */}
